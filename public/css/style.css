@@ -3,12 +3,26 @@
   padding: 1em 0em;
 }
 
+.masthead > .menu > .item > .button {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.masthead > .menu > .item > .button:hover {
+  background: inherit !important;
+}
+
+.masthead > .menu > .right.item {
+  padding: 0;
+}
+
 .ui.vertical.stripe {
-    padding: 8em 0em;
+    padding: 5em 0em;
 }
 
 .masthead.segment .background {
-  background: url(http://www.lorempizza.com/1920/700) !important;
+  background-image: url(/img/MonctonSkyline.jpg) !important;
+  background-size: 100% 100%;
   filter: alpha(opacity=50);
   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
   opacity: 0.75;
@@ -18,15 +32,83 @@
   height: 100%;
 }
 
+.quote.stripe.segment {
+  padding: 0em;
+}
+
+.quote.stripe.segment > .grid > .row > .column {
+  padding: 3em;
+}
+
+.ui.vertical.stripe h3 {
+  font-size: 2em;
+}
+
+.ui.vertical.stripe p {
+  font-size: 1.33em;
+}
+
+.footer.segment > h4.header {
+  text-decoration: none;
+}
+.footer.segment h4 {
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.footer.segment p {
+  font-size: 16px;
+  line-height: 1.25em;
+}
+
+.column.yellow {
+  background-color: #DDE884;
+}
+
+.vertical.stripe.segment p {
+  line-height: 1.8em;
+}
+
+.grey1 {
+  background-color: #A2A3A3 !important;
+}
+
+.grey2 {
+  background-color: #565657 !important;
+}
+.grey3 {
+  background-color: #D4D5D6 !important;
+}
+
+.grey4 {
+  background-color: #99BFDD !important;
+}
+
+.vertical.stripe.segment .button {
+  margin-top: 1em;
+}
+
 .masthead hr {
   max-width: 50px;
-  border-color: #2185D0;
+  border-color: #FFC044;
   border-width: 3px;
+}
+
+.ui.button {
+  background-color: #FFE599;
+}
+
+.ui.primary.button {
+  background-color: #00DCFF;
+}
+
+.masthead h2 {
+  margin-bottom: 1em;
 }
 
 .masthead h1.ui.header {
   margin-top: 3em;
-  margin-bottom: 0em;
+  margin-bottom: 0.5em;
   font-size: 4em;
   font-weight: normal;
 }
