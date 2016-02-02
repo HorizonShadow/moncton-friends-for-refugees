@@ -3,7 +3,7 @@
   padding: 1em 0em;
 }
 
-.masthead > .menu > .item > .button {
+.masthead > .menu > .item .button {
   border-radius: 0;
   box-shadow: none;
 }
