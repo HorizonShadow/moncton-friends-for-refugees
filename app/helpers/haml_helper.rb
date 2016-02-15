@@ -7,7 +7,10 @@ module Site
     def render_page(page, layout=true)
       haml :"pages/#{page}", layout: layout
     end
-    
+
+    def render_partial(page)
+      haml :"partials/#{page}", layout: false
+    end
     # Generate a script tag for given file
 		# @param file [String] File to generate script tag from
 		# return [String] HTML script tag

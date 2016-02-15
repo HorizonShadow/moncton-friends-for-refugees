@@ -1,11 +1,13 @@
 !!!
 %html
 	%head
-		%title Moncton Friends For Refugees
+		%title Partners Of Hope
 		=script('/js/script.js')
 		=script('/js/semantic.min.js')
 		=css('/css/semantic.min.css')
 		=css('/css/style.css')
 
 	%body
+		=render_partial :menu
 		=yield
+		=render_partial :footer

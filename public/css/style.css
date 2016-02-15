@@ -3,17 +3,9 @@
   padding: 1em 0em;
 }
 
-.masthead > .menu > .item .button {
-  border-radius: 0;
-  box-shadow: none;
-}
-
-.masthead > .menu > .item > .button:hover {
-  background: inherit !important;
-}
-
-.masthead > .menu > .right.item {
-  padding: 0;
+.masthead.segment.sub {
+  min-height: 550px;
+  padding: 1em 0em;
 }
 
 .ui.vertical.stripe {

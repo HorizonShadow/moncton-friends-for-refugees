@@ -8,7 +8,12 @@ module Site
         render_page :landing
       end
 
+      show_how_to_help = lambda do
+        render_page :how_to_help
+      end
+
       get '/', &show_landing
+      get '/how-to-help/?', &show_how_to_help
     end
   end
 end
