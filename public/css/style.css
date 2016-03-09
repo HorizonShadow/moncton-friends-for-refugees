@@ -1,5 +1,5 @@
 .masthead.segment {
-  min-height: 700px;
+  min-height: 550px;
   padding: 1em 0em;
 }
 
@@ -10,6 +10,15 @@
 
 .ui.vertical.stripe {
     padding: 5em 0em;
+}
+
+.partners img {
+  height: 75px;
+  width: auto;
+}
+
+.ui.vertical.stripe.segment.partners {
+  padding: 2.5em 0em;
 }
 
 .masthead.segment .background {
