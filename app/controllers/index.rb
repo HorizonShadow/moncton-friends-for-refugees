@@ -18,7 +18,7 @@ module Site
 
       get '/', &show_landing
       get '/how-to-help/?', &show_how_to_help
-      get '/items-we-need/?', &show_items_we_need
+      #get '/items-we-need/?', &show_items_we_need
     end
   end
 end
